@@ -23,24 +23,29 @@ thanks to its high tensile modulus.</description>
     <density>1.07</density>
   </properties>
   <settings>
-    <setting key="adhesion tendency">0</setting>
-
+   	<setting key="adhesion tendency">0</setting>
     <setting key="surface energy">100</setting>
-
-    <setting key="retraction amount">1.5</setting>
-	
+    <setting key="retraction amount">0.0</setting>
 	<cura:setting key="material_print_temperature">245</cura:setting>
     <cura:setting key="material_initial_print_temperature">250</cura:setting>
     <cura:setting key="material_print_temperature_layer_0">250</cura:setting>
-    <cura:setting key="material_final_print_temperature">245</cura:setting>
-    <setting key="print temperature">245</setting>
-	<setting key="standby temperature">245</setting>	
+    <cura:setting key="material_final_print_temperature">250</cura:setting>
+	<cura:setting key="default_material_chamber_temperature">60</cura:setting>	
+    <cura:setting key="cool_fan_speed_max">0.0</cura:setting>
+    <cura:setting key="cool_fan_speed_min">0.0</cura:setting>
+    <cura:setting key="cool_min_speed">0.0</cura:setting>
+    <cura:setting key="retraction_min_travel">1.5</cura:setting>
+    <setting key="print temperature">250</setting>
+    <cura:setting key="cool_min_layer_time_fan_speed_max">50.0</cura:setting>
+    <cura:setting key="infill_material_flow">105</cura:setting>
+    <cura:setting key="retraction_extra_prime_amount">0</cura:setting>
+    <setting key="standby temperature">250</setting>
+    <cura:setting key="material_flow_layer_0">105.0</cura:setting>
+	<cura:setting key="material_flow">105.0</cura:setting>
+    
+    <setting key="default_material_bed_temperature">80</setting>
+	<setting key="material_bed_temperature">80</setting>
+	<setting key="material_bed_temperature_layer_0">80</setting>
 	
-    <setting key="heated bed temperature">80</setting>
-	<cura:setting key="default_material_chamber_temperature">40</cura:setting>	
-	
-    <cura:setting key="cool_fan_speed_max">0</cura:setting>
-	<cura:setting key="cool_fan_speed_min">0</cura:setting>
-    <cura:setting key="cool_min_layer_time_fan_speed_max">0</cura:setting>		
   </settings>
 </fdmmaterial>
