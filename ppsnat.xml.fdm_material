@@ -37,11 +37,11 @@ drying the filaments at 100°/140° for 2-4 h or at 50°/90° for >4 h. Increase
 	<cura:setting key="cool_fan_full_layer">2</cura:setting>
     <cura:setting key="retraction_min_travel">1.5</cura:setting>
     <cura:setting key="cool_min_layer_time_fan_speed_max">50.0</cura:setting>
-    <cura:setting key="infill_material_flow">105</cura:setting>
+    <cura:setting key="infill_material_flow">100</cura:setting>
     <cura:setting key="retraction_extra_prime_amount">0</cura:setting>
     <cura:setting key="material_standby_temperature">270</cura:setting>
-    <cura:setting key="material_flow_layer_0">105.0</cura:setting>
-	<cura:setting key="material_flow">105.0</cura:setting>
+    <cura:setting key="material_flow_layer_0">100.0</cura:setting>
+	<cura:setting key="material_flow">100.0</cura:setting>
     <setting key="heated bed temperature">100</setting>
 	<cura:setting key="material_bed_temperature">100</cura:setting>
 	<cura:setting key="material_bed_temperature_layer_0">100</cura:setting>
